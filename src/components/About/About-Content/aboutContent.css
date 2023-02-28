@@ -1,0 +1,50 @@
+
+.aboutt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%; 
+}
+.aboutt-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+}
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.aboutt .left{
+    text-align: left;
+    padding: 1rem ;
+}
+.aboutt .right h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(9, 237, 237);
+}
+.aboutt .skills{
+    word-spacing: 10px;
+    line-height: 50px;
+    font-weight: 600;
+}
+@media screen and (max-width: 740px) {
+    .aboutt-container{
+        grid-template-columns: 1fr;
+    }
+}
