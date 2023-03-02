@@ -3,7 +3,6 @@ import shifa2 from "../../../Assets/shifa2.jpg";
 import resturant from "../../../Assets/resturant.jpg";
 import weather from "../../../Assets/weather.jpg";
 import logo from "../../../Assets/logo.jpg";
-import { NavLink } from "react-router-dom";
 const WorkCardData = [
   {
     imgsrc: shifa1,
