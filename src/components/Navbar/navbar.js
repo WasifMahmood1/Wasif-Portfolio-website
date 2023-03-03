@@ -16,9 +16,9 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
+      {/* <Link to="/">
         <h1 className="portfolio">Portfolio.</h1>
-      </Link>
+      </Link> */}
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/" className="Home">
@@ -44,9 +44,9 @@ const Navbar = () => {
           <a
             href="Wasif-ASE.pdf"
             download="Wasif-Resume"
-            className="resume resume-button"
+            className="btn1 btn1-light"
           >
-            Resume
+            Resume Download
           </a>
         </li>
       </ul>

@@ -9,7 +9,7 @@ const contact = () => {
       <Navbar />
       <HeroImageContact />
       <Form />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .mask3{
     width: 100%;
-    height: 75vh;
+    height: 70vh;
     position: relative;
 }
 .intro-img3{
@@ -26,12 +26,13 @@
 .hero3 .content3{
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 45%;
+    top: 40%;
     left: 50%;
     text-align: center;
 }
 .hero3 .content3 h1{
-    font-size: 2.4rem;
+    font-size: 2.6rem;
+    font-weight: 600;
     font-style: italic;
     padding: 5%;
 }
@@ -42,6 +43,8 @@
 }
 @media screen and (max-width: 640px){
     .hero3 .content3 h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
+        margin-bottom: 15%;
+        font-weight: 650;
     }
 }
